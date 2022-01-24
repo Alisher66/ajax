@@ -1,0 +1,41 @@
+
+*,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.user__container{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: cornsilk;
+    margin-bottom: 30px;
+}
+
+.item__content{
+    text-align: center;
+    width: 100%;
+}
+
+.user-name{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.user-email{
+    margin-top: 10px;
+    font-size: 1.2em;
+    font-style: italic;
+}
