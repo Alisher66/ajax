@@ -1,0 +1,54 @@
+
+*,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    padding: 100px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.user__container{
+    width: 600px;
+    margin: 0 auto;
+    /* padding-top: 100px; */
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: cornsilk;
+    margin-bottom: 30px;
+}
+
+.item__content{
+    text-align: center;
+    width: 100%;
+}
+
+.user-email{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.user-name{
+    margin-top: 10px;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.show-more{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 2px;
+    border:none;
+    cursor: pointer;
+}
